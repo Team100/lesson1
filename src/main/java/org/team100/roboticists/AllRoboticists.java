@@ -9,6 +9,7 @@ public class AllRoboticists {
     public AllRoboticists() {
         all = new ArrayList<>();
         all.add(new Joel());
+        all.add(new Aydan());
     }
 
     public List<Roboticist> getAll() {
