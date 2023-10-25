@@ -6,9 +6,10 @@ import org.junit.jupiter.api.Test;
 
 public class RoboticistTest {
     @Test
-    void testJoel() {
-        Roboticist joel = new Joel();
-        assertEquals(0, joel.getStudentId());
-        assertEquals(Roboticist.type.MENTOR, joel.getType());
+    void testParsa(){
+        Roboticist parsa = new Parsa();
+        assertEquals(813062, parsa.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, parsa.getType());
+    
     }
 }
