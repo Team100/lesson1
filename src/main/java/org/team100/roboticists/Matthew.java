@@ -18,7 +18,7 @@ public class Matthew implements Roboticist {
 
     @Override
     public String getSpecialTalent() {
-        return "Geography";
+        return "Studious";
     }
 
 }
