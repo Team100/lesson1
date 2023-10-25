@@ -11,4 +11,12 @@ public class RoboticistTest {
         assertEquals(0, joel.getStudentId());
         assertEquals(Roboticist.type.MENTOR, joel.getType());
     }
+
+    @Test
+    void testPeter() {
+
+        Roboticist joel = new Peter();
+        assertEquals(819651, joel.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, joel.getType());
+    }
 }
