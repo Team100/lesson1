@@ -1,6 +1,6 @@
 package org.team100.roboticists;
 
-public class Sanah implements Roboticist{
+public class Sanah implements Roboticist {
 
     @Override
     public type getType() {
@@ -23,7 +23,7 @@ public class Sanah implements Roboticist{
     @Override
     public String getSpecialTalent() {
         // TODO Auto-generated method stub
-        return "Playing the piano, crocheting, writing dead dove stories";
+        return "Playing the piano, crocheting, writing stories";
     }
-    
+
 }
