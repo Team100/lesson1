@@ -9,6 +9,11 @@ public class AllRoboticists {
     public AllRoboticists() {
         all = new ArrayList<>();
         all.add(new Joel());
+        all.add(new Aydan());
+        all.add(new Om());
+        all.add(new Peter());
+        all.add(new Matthew());
+        all.add(new Sanah());
         all.add(new Parsa());
     }
 
