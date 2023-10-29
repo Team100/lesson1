@@ -25,4 +25,11 @@ public class RoboticistTest {
         assertEquals(819652, om.getStudentId());
         assertEquals(Roboticist.type.STUDENT, om.getType());
     }
+  
+    @Test
+    void testPeter() {
+        Roboticist joel = new Peter();
+        assertEquals(819651, joel.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, joel.getType());
+    }
 }
