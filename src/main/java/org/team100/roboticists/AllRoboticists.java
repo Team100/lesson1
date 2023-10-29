@@ -14,6 +14,7 @@ public class AllRoboticists {
         all.add(new Peter());
         all.add(new Matthew());
         all.add(new Sanah());
+        all.add(new Parsa());
     }
 
     public List<Roboticist> getAll() {
