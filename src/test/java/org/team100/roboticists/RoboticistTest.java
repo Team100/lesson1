@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class RoboticistTest {
-    
     @Test
     void testJoel() {
         Roboticist joel = new Joel();
@@ -13,6 +12,7 @@ public class RoboticistTest {
         assertEquals(Roboticist.type.MENTOR, joel.getType());
     }
 
+    @Test
     void testAydan() {
         Roboticist aydan = new Aydan();
         assertEquals(818408, aydan.getStudentId());
