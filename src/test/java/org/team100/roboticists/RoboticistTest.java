@@ -13,6 +13,27 @@ public class RoboticistTest {
     }
 
     @Test
+    void testAydan() {
+        Roboticist aydan = new Aydan();
+        assertEquals(818408, aydan.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, aydan.getType());
+    }
+  
+    @Test
+    void testOm() {
+        Roboticist om = new Om();
+        assertEquals(819652, om.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, om.getType());
+    }
+  
+    @Test
+    void testPeter() {
+        Roboticist joel = new Peter();
+        assertEquals(819651, joel.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, joel.getType());
+    }
+  
+    @Test
     void testMatthew() {
         Roboticist Matthew = new Matthew();
         assertEquals(818855, Matthew.getStudentId());
