@@ -13,6 +13,13 @@ public class RoboticistTest {
     }
 
     @Test
+    void testAydan() {
+        Roboticist aydan = new Aydan();
+        assertEquals(818408, aydan.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, aydan.getType());
+    }
+  
+    @Test
     void testOm() {
         Roboticist om = new Om();
         assertEquals(819652, om.getStudentId());
