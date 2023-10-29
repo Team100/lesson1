@@ -13,6 +13,7 @@ public class AllRoboticists {
         all.add(new Om());
         all.add(new Peter());
         all.add(new Matthew());
+        all.add(new Sanah());
     }
 
     public List<Roboticist> getAll() {
