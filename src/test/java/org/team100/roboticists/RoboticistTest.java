@@ -5,15 +5,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class RoboticistTest {
-    @Test
-    void testParsa(){
-        Roboticist parsa = new Parsa();
-        assertEquals(813062, parsa.getStudentId());
-        assertEquals(Roboticist.type.STUDENT, parsa.getType());
     
+    @Test
+    void testJoel() {
+        Roboticist joel = new Joel();
+        assertEquals(0, joel.getStudentId());
+        assertEquals(Roboticist.type.MENTOR, joel.getType());
     }
 
-    @Test
     void testAydan() {
         Roboticist aydan = new Aydan();
         assertEquals(818408, aydan.getStudentId());
@@ -46,5 +45,12 @@ public class RoboticistTest {
         Roboticist sanah = new Sanah();
         assertEquals(819269, sanah.getStudentId());
         assertEquals(Roboticist.type.STUDENT, sanah.getType());
+    }
+
+    @Test
+    void testParsa(){
+        Roboticist parsa = new Parsa();
+        assertEquals(813062, parsa.getStudentId());
+        assertEquals(Roboticist.type.STUDENT, parsa.getType());
     }
 }
